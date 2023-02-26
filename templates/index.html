@@ -216,7 +216,7 @@ li a {
     }
 	
 	function copyValues(){
-		let textarea = document.getElementById("props");
+		var textarea = document.getElementById("props");
 		textarea.select();
 		document.execCommand("copy");
 		document.getSelection().removeAllRanges();
