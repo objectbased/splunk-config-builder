@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request, session, redirect
-from bin import tooltip
+import tooltip
 
 app = Flask(__name__)
 app.secret_key = "mysecretkey"
