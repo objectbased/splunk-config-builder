@@ -220,6 +220,7 @@ li a {
 		let textarea = document.getElementById("props");
 		textarea.select();
 		document.execCommand("copy");
+		document.getSelection().removeAllRanges();
     }
 	
     $(document).ready(function() {
